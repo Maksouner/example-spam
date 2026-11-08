@@ -19,7 +19,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-line bg-surface">
       <div className="mx-auto grid max-w-page gap-12 px-4 py-12 md:grid-cols-[1.4fr_1fr_1fr] md:px-6">
         <div>
-          <Image src={`${BASE_PATH}/brand/logo-dark.png`} alt="1XSPORTS" width={170} height={24} className="h-6 w-auto" />
+          <Image src={`${BASE_PATH}/brand/logo-plate.png`} alt="1XSPORTS" width={170} height={48} className="h-9 w-auto" />
           <p className="mt-4 max-w-xs text-sm text-ink-soft">{es.site.tagline}</p>
         </div>
         <FooterList title={es.footer.sections} items={sections} />

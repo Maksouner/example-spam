@@ -27,7 +27,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-line bg-bg/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-page items-center justify-between gap-4 px-4 md:h-18 md:px-6">
         <Link href="/" aria-label={es.a11y.logo} className="shrink-0">
-          <Image src={`${BASE_PATH}/brand/logo-dark.png`} alt="1XSPORTS" width={150} height={21} priority className="h-5 w-auto md:h-6" />
+          <Image src={`${BASE_PATH}/brand/logo-plate.png`} alt="1XSPORTS" width={150} height={43} priority className="h-8 w-auto md:h-9" />
         </Link>
 
         <nav aria-label={es.nav.principal} className="hidden items-center gap-1 lg:flex">
